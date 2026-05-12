@@ -1,0 +1,36 @@
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+body{
+  font-family: "Roboto Condensed", sans-serif;
+}
+:root {
+  --primary-background: #161722; 
+  --primary-color: #FFD2A4;
+  --text-color:#1C1D28;
+  --light-orange: #FFF5EB;
+  --gray: #F5F2F0;
+  --white:#ffffff;
+  --brand-gradient: linear-gradient(90deg, #A54E2B 0%, #DC9853 100%);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.primary-btn{
+  color: var(--text-color);
+  background-color: var(--primary-color);
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: 15px 20px;
+  border-radius: 12px;
+}
