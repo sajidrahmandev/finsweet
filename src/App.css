@@ -37,4 +37,24 @@
     background-position: center;
     height: 100vh;
 }
+#banner .banner-area{
+    width: 592px;
+}
+#banner .dummy{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#banner .dummy .line{
+    width: 18px;
+    height: 1px;
+    background-color: var( --primary-color);
+    display:inline-block;
+    position: absolute;
+    top:76px
+}
+
+
+
+
 

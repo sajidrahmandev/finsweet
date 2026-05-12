@@ -34,3 +34,26 @@ body{
   padding: 15px 20px;
   border-radius: 12px;
 }
+h1{
+  color: var(--white);
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 82px;
+  letter-spacing: -1%;
+  width: 592px;
+  padding: 16px 0 32px 0;
+}
+h4{
+  color: var(--light-orange);
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 186px;
+}
+h5{
+  color: var(--light-orange);
+  margin: 64px 0 0 30px;
+  font-size: 16px;
+  width: 308px;
+  line-height: 24px;
+  font-weight: 300;
+}
