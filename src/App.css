@@ -53,8 +53,50 @@
     position: absolute;
     top:76px
 }
+/* Banner area end */
 
+#services{
 
-
+}
+#services .service-text h4{
+    color: var(--text-color);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+}
+#services .service-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+#services .service-cards .card{
+    width: 31%;
+    background-color: var(--light-orange);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 20px solid var(--primary-color);
+    padding: 80px;
+}
+#services .service-cards .card .card-img{
+    width: 55px;
+    height: 55px;
+    background-color:var(--primary-color) ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#services .service-cards .card img{
+    width: 35px;
+}
+#services .service-cards .card h4{
+    color: var(--text-color);
+    padding: 20px 0;
+    font-weight: 400;
+    width: 251px;
+    line-height: 25px;
+}
 
 
